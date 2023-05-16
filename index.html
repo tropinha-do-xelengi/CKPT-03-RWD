@@ -9,7 +9,6 @@
     <script src="./cp3.js" defer></script>
 </head>
 <body>
-    
     <div class="conteudo">
         <form action="" method="get" onsubmit="return false">
             <fieldset class="form-holder">
@@ -26,7 +25,7 @@
 
                 <div class="form email-form">
                     <label id="lblEmail" for="idEmail">Email: </label>
-                    <input class="input" type="email" name="txtEmail" id="idEmail" placeholder="ex: anasilva@email.com">
+                    <input class="input" type="email" name="txtEmail" id="idEmail" placeholder="ex: email@example.com">
                 </div>
 
                 <div class="form senha-form">
@@ -40,12 +39,13 @@
                 </div>
 
                 <div class="form btn-form">
-                    <input id="darkmodeBtn" type="button" value="DarkMode">
+                    <input id="darkmodeBtn" type="button" value="DarkMode" onclick="toggleDarkMode()">
                     <input id="submitBtn" type="submit" value="Enviar">
                 </div>
             </fieldset>
         </form>
     </div>
+
 
 </body>
 </html>
