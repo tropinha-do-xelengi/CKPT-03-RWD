@@ -50,12 +50,14 @@ h3{
     border-radius: 10px;
 }
 /* Anotações código sobre o Dark Mode */ 
+ 
 .dark-mode {
     background-color: #353535; /* cor de fundo no modo escuro */
     color: #ffffff; /* cor do texto no modo escuro */
 }
 
-/* Dark Mode adicional no itens do formulário */ 
+/* Dark Mode adicional no itens do formulário 
+Resolvi fazer em cada aba, e que me ajudou a estudar mais */ 
 .dark-mode body {
     background-color: #494747; 
     color: #ffffff; 
