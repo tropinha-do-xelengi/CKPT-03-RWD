@@ -51,22 +51,18 @@ h3{
 }
 /* Anotações código sobre o Dark Mode */ 
 .dark-mode {
-    background-color: #000000; /* cor de fundo no modo escuro */
+    background-color: #353535; /* cor de fundo no modo escuro */
     color: #ffffff; /* cor do texto no modo escuro */
 }
 
 /* Dark Mode adicional no itens do formulário */ 
 .dark-mode body {
-    background-color: #000000; 
+    background-color: #494747; 
     color: #ffffff; 
 }
 
 .dark-mode h3 {
     color: #ffffff; 
-}
-
-.dark-mode .conteudo {
-    background-color: #333333
 }
 
 .dark-mode .form-holder {
@@ -77,5 +73,5 @@ h3{
     color: #ffffff
 }
 .dark-mode .input {
-    background-color: #666666
+    background-color: #ffffff
 } 
