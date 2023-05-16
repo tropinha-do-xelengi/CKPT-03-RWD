@@ -6,15 +6,17 @@
     padding: 0;
     font-family: 'Kanit', sans-serif;
 }   
+
 body {
     background-color: #f7f7f7; /* cor de fundo padrão */
-    color: #000000
+    color: #000000;
 }
 
 h3{
     text-align: center;
     padding: 2% 0;
 }
+
 .conteudo{
     display: flex;
     flex-wrap: wrap;
@@ -22,29 +24,54 @@ h3{
     justify-content: center;
     margin: 15% auto;
 }
+
 .form-holder{
     display: flex;
     flex-direction: column;
     width: 40vw;
-
     border-style: solid black 10px;
     border-radius: 10px;
 }
+
 .form{
     display: flex;
     justify-content: space-between;
     padding: 1% 1%;
 }
+
 .input{
     width: 15vw;
     border-style: solid 2px black;
     border-radius: 10px;
 }
+
 #submitBtn{
     width: 15vw;
     border-radius: 10px;
 }
+
 .dark-mode {
     background-color: #000000; /* cor de fundo no modo escuro */
     color: #ffffff; /* cor do texto no modo escuro */
+}
+
+.dark-mode body {
+    background-color: #000000; /* cor de fundo padrão no modo escuro */
+    color: #ffffff; /* cor do texto padrão no modo escuro */
+}
+
+.dark-mode h3 {
+    color: #ffffff; /* cor do texto do título no modo escuro */
+}
+
+.dark-mode .conteudo {
+    background-color: #333333; /* cor de fundo do conteúdo no modo escuro */
+}
+
+.dark-mode .form-holder {
+    border-color: #ffffff; /* cor da borda do formulário no modo escuro */
+}
+
+.dark-mode .form {
+    color: #ffffff
 }
