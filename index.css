@@ -6,6 +6,11 @@
     padding: 0;
     font-family: 'Kanit', sans-serif;
 }   
+body {
+    background-color: #f7f7f7; /* cor de fundo padrão */
+    color: #000000
+}
+
 h3{
     text-align: center;
     padding: 2% 0;
@@ -24,7 +29,6 @@ h3{
 
     border-style: solid black 10px;
     border-radius: 10px;
-    background-color: rgba(218, 165, 32, 0.61);
 }
 .form{
     display: flex;
@@ -40,12 +44,7 @@ h3{
     width: 15vw;
     border-radius: 10px;
 }
-body {
-    background-color: #fff; /* cor de fundo padrão */
-    color: #000; /* cor do texto padrão */
-}
-
 .dark-mode {
-    background-color: #000; /* cor de fundo no modo escuro */
-    color: #fff; /* cor do texto no modo escuro */
-}  
+    background-color: #000000; /* cor de fundo no modo escuro */
+    color: #ffffff; /* cor do texto no modo escuro */
+}
