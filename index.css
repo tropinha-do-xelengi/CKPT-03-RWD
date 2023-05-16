@@ -26,17 +26,3 @@ h3{
     border-radius: 10px;
     background-color: rgba(218, 165, 32, 0.61);
 }
-.form{
-    display: flex;
-    justify-content: space-between;
-    padding: 1% 1%;
-}
-.input{
-    width: 15vw;
-    border-style: solid 2px black;
-    border-radius: 10px;
-}
-#submitBtn{
-    width: 15vw;
-    border-radius: 10px;
-}
