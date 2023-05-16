@@ -40,3 +40,12 @@ h3{
     width: 15vw;
     border-radius: 10px;
 }
+body {
+    background-color: #fff; /* cor de fundo padrão */
+    color: #000; /* cor do texto padrão */
+}
+
+.dark-mode {
+    background-color: #000; /* cor de fundo no modo escuro */
+    color: #fff; /* cor do texto no modo escuro */
+}  
