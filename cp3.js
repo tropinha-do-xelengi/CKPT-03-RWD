@@ -9,7 +9,6 @@ inputUser.addEventListener("focus", ()=>{
     inputUser.setAttribute("style","outline-color:#ff0000;");
 });
 
-
 inputUser.addEventListener("keyup", ()=>{
     const lblUser = document.querySelector("label[for='idEmail']");
     if(inputUser.value.length < 5){
