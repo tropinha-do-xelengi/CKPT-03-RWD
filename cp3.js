@@ -69,12 +69,14 @@ inputEmail.addEventListener("focus", ()=>{
 
 inputEmail.addEventListener("keyup", ()=>{
     const lblUser = document.querySelector("label[for='idEmail']");
-    if(inputEmail.value.length < 5){
-        lblUser.innerHTML = "<span style='color:#801020;font-weight:700;'>E-mail: </span>";
-        inputEmail.setAttribute("style","outline-color:#801020;font-weight:700;");
-    }else {
+    var padraoValido = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    if(inputEmail.value.length >= 5 && (inputEmail.value.match(padraoValido))){
         lblUser.innerHTML = "<span style='color:#28a428;font-weight:700;'>E-mail: </span>";
         inputEmail.setAttribute("style","outline-color:#28a428;font-weight:700;");
+    }else {
+        
+        lblUser.innerHTML = "<span style='color:#801020;font-weight:700;'>E-mail: </span>";
+        inputEmail.setAttribute("style","outline-color:#801020;font-weight:700;");
     }
 });
 
