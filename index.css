@@ -76,4 +76,13 @@ Resolvi fazer em cada aba, e que me ajudou a estudar mais */
 }
 .dark-mode .input {
     background-color: #ffffff
-} 
+}
+
+#darkmodeBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
