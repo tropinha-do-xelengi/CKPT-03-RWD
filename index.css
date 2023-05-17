@@ -48,6 +48,7 @@ h3{
 #submitBtn{
     width: 15vw;
     border-radius: 10px;
+    cursor: pointer;
 }
 /* Anotações código sobre o Dark Mode */ 
  
@@ -83,6 +84,12 @@ Resolvi fazer em cada aba, e que me ajudou a estudar mais */
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+
     width: 30px;
     height: 30px;
+
+    border-radius: 15px;
+    color:#ffffff;
+    background-color: #000000;
 }
